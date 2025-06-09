@@ -10,6 +10,7 @@ This repository includes:
 - Automation scripts for recon and vulnerability discovery
 - OWASP Top 10 testing examples using Burp Suite
 - Cloud security examples (AWS IAM, S3 misconfigurations)
+- Behavioral threat intelligence examples detecting AI-generated phishing
 
 ## Legal Notice
 All content is either original or fully redacted to protect client confidentiality.
