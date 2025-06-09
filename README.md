@@ -11,6 +11,7 @@ This repository includes:
 - OWASP Top 10 testing examples using Burp Suite
 - Cloud security examples (AWS IAM, S3 misconfigurations)
 - Behavioral threat intelligence examples detecting AI-generated phishing
+- Advanced BEC detection using sentence-transformer embeddings
 - Dockerized FastAPI service for AI phishing detection
 
 ## Legal Notice

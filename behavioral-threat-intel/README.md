@@ -1,9 +1,9 @@
 # Behavioral Threat Intelligence & AI Social Engineering Detector
 
-This module demonstrates a lightweight approach for detecting AI-generated phishing messages.
+This module demonstrates approaches for detecting AI-generated phishing and next-generation Business Email Compromise (BEC) messages.
 
-- **Dataset**: `sample_emails.csv` contains example messages labeled as `ai` or `human`.
-- **Detector**: `ai_social_engineering_detector.py` trains a simple logistic regression model using scikit-learn.
+- **Datasets**: `sample_emails.csv` and `sample_bec_emails.csv` contain example messages labeled for training.
+- **Detectors**: `ai_social_engineering_detector.py` trains a basic logistic regression model while `bec_ai_detector.py` uses sentence-transformer embeddings for BEC threats.
 - **NIST Mapping**: see `nist_mapping.md` for relevant IA controls.
 
 ## Interactive Usage
@@ -13,6 +13,14 @@ python ai_social_engineering_detector.py
 ```
 
 You will be prompted to enter email text to classify.
+
+### BEC Detector
+
+```bash
+python bec_ai_detector.py
+```
+
+Detects business email compromise attempts using sentence-transformer embeddings.
 
 ## API Service
 
